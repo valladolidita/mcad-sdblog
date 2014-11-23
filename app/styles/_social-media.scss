@@ -1,1 +1,18 @@
 // social-media.scss
+.social-media {
+  @include clearfix;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: .55em;
+  line-height: .25em;
+  li {
+    float: left;
+    margin: .1em;
+  }
+  a {
+    padding: 0.15em;
+    display: inline-block;
+    color: $black;
+  }
+}

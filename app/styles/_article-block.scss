@@ -1,1 +1,38 @@
 //article-block.scss
+.article-block {
+  height: 19em;
+  width: 100%;
+  background: linear-gradient(purple, transparent);
+  padding: 1em;
+  margin: 0.5em;
+  float: left;
+  color: white;
+  &:hover {
+    background: magenta;
+  }
+
+  .post-date  {
+    float: right;
+  }
+  .post-date, .category {
+    margin: 0;
+  }
+h1 {
+    margin: 0;
+    font-size: 1.8em;
+    line-height: 1em;
+  }
+  img {
+    z-index: -10;
+    max-width: none;
+  }
+  &.block-small {
+    width: 25%;
+  }
+  &.block-medium {
+    width: 32%;
+  }
+  &.block-large {
+    width: 45%;
+  }
+}

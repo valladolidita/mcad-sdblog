@@ -9,8 +9,8 @@
 
         <!-- build:css styles/vendor.css -->
         <!-- bower:css -->
-        <link rel="stylesheet" href="bower_components/normalize.css/normalize.css"/>
-        <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css"/>
+        <link rel="stylesheet" href="bower_components/normalize.css/normalize.css" />
+        <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css" />
         <!-- endbower -->
         <!-- endbuild -->
 
@@ -80,14 +80,34 @@
         <img class="sample-image" src="images/modules/article-block.png" alt="Article Block">
 
         <!--.article-block"-->
-        <h1 class="article-block">
+<div class="container">
+        <article class="article-block category-blue block-small">
             <p class="post-date">Feb 20, 2014</p>
             <p class="category">Biomimicry</p>
-            <p class="title">Design Rules for Sustainability</p>
+            <h1 class="title">Design Rules for Sustainability</h1>
             <img class="sample-image" src="images/BuckyRulesC11.jpg" alt="Sustainability Image">
-        </h1 class="article-block">
-        </div>
-        <!--end .article-block"-->
+        </article>
+        <article class="article-block category-green block-medium">
+          <p class="post-date">Feb 20, 2014</p>
+          <p class="category">Biomimicry</p>
+          <h1 class="title">Design Rules for Sustainability</h1>
+          <img class="sample-image" src="images/BuckyRulesC11.jpg" alt="Sustainability Image">
+        </article>
+        <article class="article-block category-yellow block-large">
+          <p class="post-date">Feb 20, 2014</p>
+          <p class="category">Biomimicry</p>
+          <h1 class="title">Design Rules for Sustainability</h1>
+          <img class="sample-image" src="images/BuckyRulesC11.jpg" alt="Sustainability Image">
+        </article>
+        <article class="article-block category-red block-medium">
+          <p class="post-date">Feb 20, 2014</p>
+          <p class="category">Biomimicry</p>
+          <h1 class="title">Design Rules for Sustainability</h1>
+          <img class="sample-image" src="images/BuckyRulesC11.jpg" alt="Sustainability Image">
+        </article>
+  </div>
+</div>
+  <!--end .article-block"-->
 
         <div class="css-module">
           <h2>.page-footer</h2>
@@ -96,6 +116,12 @@
         <!--.page-footer"-->
         <h1 class="page-footer">
           <p>Minneapolis College of Art and Design © 2014</p>
+          <ul class="social-media">
+            <li><a href="#"><i class="fa fa-facebook"></i></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></li>
+            <li><a href="#"><i class="fa fa-pinterest"></i></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></li>
+          </ul>
         </div>
         <!--end .page-footer"-->
 
@@ -105,11 +131,11 @@
 
         <!--.social-media"-->
         <h1 class="social-media">
-          <ul>
-              <li><i class="fa fa-facebook"></i></li>
-              <li><i class="fa fa-twitter"></i></li>
-              <li><i class="fa fa-pinterest"></i></li>
-              <li><i class="fa fa-linkedin"></i></li>
+          <ul class="social-media">
+              <li><a href="#"><i class="fa fa-facebook"></i></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></li>
+              <li><a href="#"><i class="fa fa-pinterest"></i></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></li>
           </ul>
         </div>
         <!--end .social-media"-->
@@ -127,7 +153,11 @@
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
         <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/eventEmitter/EventEmitter.js"></script>
+        <script src="bower_components/eventie/eventie.js"></script>
+        <script src="bower_components/imagesloaded/imagesloaded.js"></script>
         <!-- endbower -->
+        <script src="bower_components/imagefill/js/jquery-imagefill.js"></script>
         <!-- endbuild -->
 
         <!-- build:js scripts/plugins.js -->
