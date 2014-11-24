@@ -1,8 +1,10 @@
 //article-block.scss
 .article-block {
-  width: 38%;
   height: 20em;
+  width: 100%;
   padding: 1em;
+  margin: 0.5em;
+  float: left;
   background: linear-gradient(red, transparent);
   color:white;
   &:hover {
@@ -25,4 +27,13 @@
     z-index: -10;
     max-width: none;
   }
+  &.block-small {
+    width: 25%;
+  }
+  &.block-medium {
+    width: 34%;
+  }
+  &.block-large {
+    width: 45%;
+}
 }
