@@ -1,8 +1,23 @@
 //article-block.scss
 .article-block {
-  width: 32%;
-  height: 20em;
+  width: 38%;
+  height: 10em;
   background: linear-gradient(red, transparent);
+  padding: 1em;
+  color:white;
+    .post-date {
+      float: right;
+    }
+    .post-date,
+    .category {
+      margin: 0;
+      font-size: .5em;
+    }
+  h1 {
+      margin: 0;
+      font-size: 1.5em;
+      line-height: .5em;
+  }
   img {
     z-index: -10;
     max-width: none;
