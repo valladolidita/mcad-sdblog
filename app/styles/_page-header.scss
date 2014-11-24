@@ -1,0 +1,20 @@
+.page-header {
+  @include clearfix;
+  width: 100%;
+  position: relative;
+  margin-bottom: 20em;
+  .utility-logo-group {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .brochure {
+  }
+  .sustainable {
+  }
+  .logo {
+  }
+  .main-nav {
+    float: right;
+  }
+}
