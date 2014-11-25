@@ -30,3 +30,12 @@ img {
 .container {
   @include clearfix;
 }
+
+.older-posts  {
+  margin: 0 0 0 .25em;
+}
+
+.older-posts a {
+  text-decoration: none;
+  color: #00f;
+}
