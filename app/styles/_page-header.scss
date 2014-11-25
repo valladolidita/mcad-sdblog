@@ -2,19 +2,28 @@
   @include clearfix;
   width: 100%;
   position: relative;
-  margin-bottom: 20em;
+  margin-bottom: 01em;
   .utility-logo-group {
     position: absolute;
+    width: 30em;
     top: 0;
     right: 0;
   }
-  .brochure {
+  .utility-nav {
+    position: absolute;
+    top: 0;
+    right: 8em;
+    width: 29em;
+    margin: 0;
+    float: left;
   }
-  .sustainable {
-  }
+
   .logo {
+    margin: 0 .75em;
+    float: right;
   }
   .main-nav {
+    margin: 0;
     float: right;
   }
 }
